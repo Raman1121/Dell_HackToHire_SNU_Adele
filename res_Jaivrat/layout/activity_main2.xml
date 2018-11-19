@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Details"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/news1" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"
+        android:background="@drawable/rounded_textview"
+        android:elevation="3dp"
+        android:layout_marginVertical="-25dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="@color/colorWhite"
+        android:textSize="24dp" />
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">-->
+
+    <TextView
+        android:id="@+id/itemtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_alignParentStart="true"
+        android:text="Product Title"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemtitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:text="100"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24dp" />
+
+    <!--</LinearLayout>-->
+    <TextView
+        android:id="@+id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price"
+        android:layout_marginStart="10dp"
+        android:text="Description"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>
