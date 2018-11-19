@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5ea1a2</color>
+    <color name="colorPrimaryDark">#4b5169</color>
+    <color name="colorAccent">#e66958</color>
+    <color name="darkblue">#217093</color>
+    <color name="medblue">#4eb8dd</color>
+    <color name="inputbg">#f2f9fd</color>
+    <color name="colorLight">#e9e7e0</color>
+    <color name="colorWhite">#fcfcfb</color>
+    <color name="colorBlack">#282624</color>
+
+</resources>
